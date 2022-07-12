@@ -29,12 +29,24 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Emplea));
+<<<<<<< HEAD
             this.label2 = new System.Windows.Forms.Label();
+=======
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.textnombre = new System.Windows.Forms.TextBox();
+=======
+            this.textid = new System.Windows.Forms.TextBox();
+            this.textnombre = new System.Windows.Forms.TextBox();
+            this.textcedula = new System.Windows.Forms.TextBox();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.text = new System.Windows.Forms.TextBox();
             this.combotanda = new System.Windows.Forms.ComboBox();
             this.comboestado = new System.Windows.Forms.ComboBox();
@@ -48,23 +60,59 @@
             ((System.ComponentModel.ISupportInitialize)(this.dat1)).BeginInit();
             this.SuspendLayout();
             // 
+<<<<<<< HEAD
+=======
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(186, 55);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(27, 18);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Id:";
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(191, 51);
+=======
+            this.label2.Location = new System.Drawing.Point(180, 86);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre:";
             // 
+<<<<<<< HEAD
+=======
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(186, 118);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(62, 18);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Cédula:";
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(199, 85);
+=======
+            this.label4.Location = new System.Drawing.Point(186, 143);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 18);
             this.label4.TabIndex = 3;
@@ -103,14 +151,41 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Estado:";
             // 
+<<<<<<< HEAD
             // textnombre
             // 
             this.textnombre.BackColor = System.Drawing.Color.DarkGray;
             this.textnombre.Location = new System.Drawing.Point(262, 54);
+=======
+            // textid
+            // 
+            this.textid.BackColor = System.Drawing.Color.DarkGray;
+            this.textid.Location = new System.Drawing.Point(251, 53);
+            this.textid.Name = "textid";
+            this.textid.Size = new System.Drawing.Size(71, 20);
+            this.textid.TabIndex = 7;
+            this.textid.TextChanged += new System.EventHandler(this.textid_TextChanged);
+            // 
+            // textnombre
+            // 
+            this.textnombre.BackColor = System.Drawing.Color.DarkGray;
+            this.textnombre.Location = new System.Drawing.Point(251, 89);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.textnombre.Name = "textnombre";
             this.textnombre.Size = new System.Drawing.Size(100, 20);
             this.textnombre.TabIndex = 8;
             // 
+<<<<<<< HEAD
+=======
+            // textcedula
+            // 
+            this.textcedula.BackColor = System.Drawing.Color.DarkGray;
+            this.textcedula.Location = new System.Drawing.Point(251, 118);
+            this.textcedula.Name = "textcedula";
+            this.textcedula.Size = new System.Drawing.Size(97, 20);
+            this.textcedula.TabIndex = 9;
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // text
             // 
             this.text.BackColor = System.Drawing.Color.DarkGray;
@@ -127,7 +202,11 @@
             "Matutina",
             "Vespertina",
             "Nocturna"});
+<<<<<<< HEAD
             this.combotanda.Location = new System.Drawing.Point(262, 87);
+=======
+            this.combotanda.Location = new System.Drawing.Point(249, 145);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.combotanda.Name = "combotanda";
             this.combotanda.Size = new System.Drawing.Size(102, 21);
             this.combotanda.TabIndex = 12;
@@ -154,7 +233,10 @@
             this.dat1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dat1.Size = new System.Drawing.Size(529, 172);
             this.dat1.TabIndex = 21;
+<<<<<<< HEAD
             this.dat1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dat1_CellContentClick);
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.dat1.Click += new System.EventHandler(this.dat1_Click);
             // 
             // btneliminar
@@ -266,12 +348,24 @@
             this.Controls.Add(this.comboestado);
             this.Controls.Add(this.combotanda);
             this.Controls.Add(this.text);
+<<<<<<< HEAD
             this.Controls.Add(this.textnombre);
+=======
+            this.Controls.Add(this.textcedula);
+            this.Controls.Add(this.textnombre);
+            this.Controls.Add(this.textid);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
+<<<<<<< HEAD
             this.Controls.Add(this.label2);
+=======
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Emplea";
             this.Text = "Emplea";
@@ -283,12 +377,25 @@
         }
 
         #endregion
+<<<<<<< HEAD
         private System.Windows.Forms.Label label2;
+=======
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox textnombre;
+=======
+        private System.Windows.Forms.TextBox textid;
+        private System.Windows.Forms.TextBox textnombre;
+        private System.Windows.Forms.TextBox textcedula;
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         private System.Windows.Forms.TextBox text;
         private System.Windows.Forms.ComboBox combotanda;
         private System.Windows.Forms.ComboBox comboestado;

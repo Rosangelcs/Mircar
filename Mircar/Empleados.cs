@@ -16,6 +16,10 @@ namespace Mircar
     {
         public int id { get; set; }
         public string Nombre { get; set; }
+<<<<<<< HEAD
+=======
+        public double Cedula { get; set; }
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         public string Tanda_labor { get; set; }
         public System.DateTime Fecha_ingreso { get; set; }
         public string Estado { get; set; }

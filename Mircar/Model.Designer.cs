@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Model));
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -38,34 +39,73 @@
             this.comboidmarca = new System.Windows.Forms.ComboBox();
             this.marcasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.rentcarDataSet = new Mircar.RentcarDataSet();
+=======
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textid = new System.Windows.Forms.TextBox();
+            this.textdescripcion = new System.Windows.Forms.TextBox();
+            this.comboidmarca = new System.Windows.Forms.ComboBox();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.comboestado = new System.Windows.Forms.ComboBox();
             this.grid2 = new System.Windows.Forms.DataGridView();
             this.btneliminar = new System.Windows.Forms.Button();
             this.btneditar = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.btnnuevo = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.marcasTableAdapter = new Mircar.RentcarDataSetTableAdapters.MarcasTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.marcasBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid2)).BeginInit();
+=======
+            this.rentcarDataSet = new Mircar.RentcarDataSet();
+            this.marcasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.marcasTableAdapter = new Mircar.RentcarDataSetTableAdapters.MarcasTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.grid2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marcasBindingSource)).BeginInit();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(330, 22);
+=======
+            this.label1.Location = new System.Drawing.Point(363, 40);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Modelos";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+<<<<<<< HEAD
+=======
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(94, 67);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(26, 18);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "ld:";
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(105, 96);
+=======
+            this.label3.Location = new System.Drawing.Point(94, 111);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(82, 18);
             this.label3.TabIndex = 2;
@@ -75,7 +115,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(105, 150);
+=======
+            this.label4.Location = new System.Drawing.Point(94, 165);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(96, 18);
             this.label4.TabIndex = 3;
@@ -85,15 +129,32 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label5.Location = new System.Drawing.Point(105, 212);
+=======
+            this.label5.Location = new System.Drawing.Point(94, 227);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 18);
             this.label5.TabIndex = 4;
             this.label5.Text = "Estado:";
             // 
+<<<<<<< HEAD
             // textdescripcion
             // 
             this.textdescripcion.Location = new System.Drawing.Point(108, 171);
+=======
+            // textid
+            // 
+            this.textid.Location = new System.Drawing.Point(97, 88);
+            this.textid.Name = "textid";
+            this.textid.Size = new System.Drawing.Size(45, 20);
+            this.textid.TabIndex = 5;
+            // 
+            // textdescripcion
+            // 
+            this.textdescripcion.Location = new System.Drawing.Point(97, 186);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.textdescripcion.Multiline = true;
             this.textdescripcion.Name = "textdescripcion";
             this.textdescripcion.Size = new System.Drawing.Size(203, 24);
@@ -104,12 +165,17 @@
             this.comboidmarca.DataSource = this.marcasBindingSource;
             this.comboidmarca.DisplayMember = "id";
             this.comboidmarca.FormattingEnabled = true;
+<<<<<<< HEAD
             this.comboidmarca.Location = new System.Drawing.Point(108, 118);
+=======
+            this.comboidmarca.Location = new System.Drawing.Point(97, 133);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.comboidmarca.Name = "comboidmarca";
             this.comboidmarca.Size = new System.Drawing.Size(79, 21);
             this.comboidmarca.TabIndex = 8;
             this.comboidmarca.ValueMember = "id";
             // 
+<<<<<<< HEAD
             // marcasBindingSource
             // 
             this.marcasBindingSource.DataMember = "Marcas";
@@ -120,20 +186,29 @@
             this.rentcarDataSet.DataSetName = "RentcarDataSet";
             this.rentcarDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // comboestado
             // 
             this.comboestado.FormattingEnabled = true;
             this.comboestado.Items.AddRange(new object[] {
             "Activo",
             "Inactivo"});
+<<<<<<< HEAD
             this.comboestado.Location = new System.Drawing.Point(108, 233);
+=======
+            this.comboestado.Location = new System.Drawing.Point(97, 248);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.comboestado.Name = "comboestado";
             this.comboestado.Size = new System.Drawing.Size(79, 21);
             this.comboestado.TabIndex = 9;
             // 
             // grid2
             // 
+<<<<<<< HEAD
             this.grid2.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.grid2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.grid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid2.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
@@ -143,7 +218,10 @@
             this.grid2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.grid2.Size = new System.Drawing.Size(399, 171);
             this.grid2.TabIndex = 21;
+<<<<<<< HEAD
             this.grid2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid2_CellContentClick);
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // 
             // btneliminar
             // 
@@ -217,6 +295,19 @@
             this.btnnuevo.UseVisualStyleBackColor = true;
             this.btnnuevo.Click += new System.EventHandler(this.btnnuevo_Click);
             // 
+<<<<<<< HEAD
+=======
+            // rentcarDataSet
+            // 
+            this.rentcarDataSet.DataSetName = "RentcarDataSet";
+            this.rentcarDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // marcasBindingSource
+            // 
+            this.marcasBindingSource.DataMember = "Marcas";
+            this.marcasBindingSource.DataSource = this.rentcarDataSet;
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // marcasTableAdapter
             // 
             this.marcasTableAdapter.ClearBeforeFill = true;
@@ -235,17 +326,31 @@
             this.Controls.Add(this.comboestado);
             this.Controls.Add(this.comboidmarca);
             this.Controls.Add(this.textdescripcion);
+<<<<<<< HEAD
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+=======
+            this.Controls.Add(this.textid);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Model";
             this.Text = "Model";
             this.Load += new System.EventHandler(this.Model_Load);
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.marcasBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid2)).EndInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.grid2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marcasBindingSource)).EndInit();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -254,9 +359,17 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+=======
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textid;
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         private System.Windows.Forms.TextBox textdescripcion;
         private System.Windows.Forms.ComboBox comboidmarca;
         private System.Windows.Forms.ComboBox comboestado;

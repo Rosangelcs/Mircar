@@ -16,7 +16,11 @@ namespace Mircar
     {
         public int id { get; set; }
         public string Nombre { get; set; }
+<<<<<<< HEAD
         public string Cedula { get; set; }
+=======
+        public double Cedula { get; set; }
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         public double No_tarjeta { get; set; }
         public string Tipo_Persona { get; set; }
         public string Estado { get; set; }

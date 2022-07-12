@@ -46,23 +46,38 @@ namespace Mircar
         }
         private void llenar()
         {
+<<<<<<< HEAD
             
             this.textdescripcion.Text = dat1.SelectedRows[0].Cells[1].Value.ToString();
             
             this.comboestado.Text = dat1.SelectedRows[0].Cells[2].Value.ToString();
+=======
+            this.texid.Text = dat1.SelectedRows[0].Cells[0].Value.ToString();
+            this.textdescripcion.Text = dat1.SelectedRows[0].Cells[1].Value.ToString();
+            
+            this.comboestado.Text = dat1.SelectedRows[0].Cells[9].Value.ToString();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
 
 
         }
         private void btnnuevo_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+            texid.Clear();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             textdescripcion.Clear();
             textbusqueda.Clear();
         }
 
         private void btnguardar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+            int id = int.Parse(this.texid.Text);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             string Descripcion = textdescripcion.Text;
             string estado = comboestado.Text;
 
@@ -71,7 +86,11 @@ namespace Mircar
 
                  Marcas c = new Marcas
                 {
+<<<<<<< HEAD
                     
+=======
+                    id = id,
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
                     Descripcion = Descripcion,
                     
                     Estado = estado
@@ -86,7 +105,11 @@ namespace Mircar
 
         private void btneditar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+            int id = Convert.ToInt16(this.texid.Text);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             string Descripcion = textdescripcion.Text;
             
             string estado = comboestado.Text;
@@ -95,7 +118,11 @@ namespace Mircar
             using (RentcarEntities contexto = new RentcarEntities())
             {
 
+<<<<<<< HEAD
                 Marcas c = contexto.Marcas.FirstOrDefault();
+=======
+                Marcas c = contexto.Marcas.FirstOrDefault(x => x.id == id);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
 
                 c.Descripcion = Descripcion;
               
@@ -109,11 +136,19 @@ namespace Mircar
 
         private void btneliminar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
           
             using (RentcarEntities contexto = new RentcarEntities())
             {
 
                 Marcas c = contexto.Marcas.FirstOrDefault();
+=======
+            int id = Convert.ToInt16(this.texid.Text);
+            using (RentcarEntities contexto = new RentcarEntities())
+            {
+
+                Marcas c = contexto.Marcas.FirstOrDefault(x => x.id == id);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
 
                 contexto.Marcas.Remove(c);
                 contexto.SaveChanges();

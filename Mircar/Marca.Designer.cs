@@ -30,8 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Marca));
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+=======
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.texid = new System.Windows.Forms.TextBox();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.textdescripcion = new System.Windows.Forms.TextBox();
             this.dat1 = new System.Windows.Forms.DataGridView();
             this.textbusqueda = new System.Windows.Forms.TextBox();
@@ -55,11 +62,29 @@
             this.label1.Text = "Marcas";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+<<<<<<< HEAD
+=======
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(99, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(27, 18);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Id:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(101, 118);
+=======
+            this.label3.Location = new System.Drawing.Point(99, 132);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 18);
             this.label3.TabIndex = 2;
@@ -70,16 +95,34 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(101, 175);
+=======
+            this.label4.Location = new System.Drawing.Point(99, 189);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 18);
             this.label4.TabIndex = 3;
             this.label4.Text = "Estado:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+<<<<<<< HEAD
             // textdescripcion
             // 
             this.textdescripcion.Location = new System.Drawing.Point(104, 139);
+=======
+            // texid
+            // 
+            this.texid.Location = new System.Drawing.Point(103, 109);
+            this.texid.Name = "texid";
+            this.texid.Size = new System.Drawing.Size(45, 20);
+            this.texid.TabIndex = 4;
+            this.texid.TextChanged += new System.EventHandler(this.texid_TextChanged);
+            // 
+            // textdescripcion
+            // 
+            this.textdescripcion.Location = new System.Drawing.Point(102, 153);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.textdescripcion.Multiline = true;
             this.textdescripcion.Name = "textdescripcion";
             this.textdescripcion.Size = new System.Drawing.Size(165, 30);
@@ -186,7 +229,11 @@
             this.comboestado.Items.AddRange(new object[] {
             "Activo",
             "Inactivo"});
+<<<<<<< HEAD
             this.comboestado.Location = new System.Drawing.Point(105, 196);
+=======
+            this.comboestado.Location = new System.Drawing.Point(103, 210);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.comboestado.Name = "comboestado";
             this.comboestado.Size = new System.Drawing.Size(102, 21);
             this.comboestado.TabIndex = 35;
@@ -217,8 +264,15 @@
             this.Controls.Add(this.textbusqueda);
             this.Controls.Add(this.dat1);
             this.Controls.Add(this.textdescripcion);
+<<<<<<< HEAD
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+=======
+            this.Controls.Add(this.texid);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Marca";
@@ -233,8 +287,15 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+=======
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox texid;
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         private System.Windows.Forms.TextBox textdescripcion;
         private System.Windows.Forms.DataGridView dat1;
         private System.Windows.Forms.TextBox textbusqueda;

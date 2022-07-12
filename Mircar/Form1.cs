@@ -131,7 +131,11 @@ namespace Mircar
 
         private void btnusuarios_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+            AbrirFormInPanel(new report());
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         }
 
         private void btnempleados_Click(object sender, EventArgs e)
@@ -188,11 +192,14 @@ namespace Mircar
         {
             AbrirFormInPanel(new inspecci());
         }
+<<<<<<< HEAD
 
         private void report_Click(object sender, EventArgs e)
         {
             AbrirFormInPanel(new Reporte());
         }
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
     }
 }
 

@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Menuvertical = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.report = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PanelSubmenumedio = new System.Windows.Forms.Panel();
@@ -37,6 +38,15 @@
             this.btnmodelo = new System.Windows.Forms.Button();
             this.btnmarcas = new System.Windows.Forms.Button();
             this.btntiposveh = new System.Windows.Forms.Button();
+=======
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PanelSubmenumedio = new System.Windows.Forms.Panel();
+            this.btnmodelo = new System.Windows.Forms.Button();
+            this.btntiposveh = new System.Windows.Forms.Button();
+            this.btnmarcas = new System.Windows.Forms.Button();
+            this.btncombustibles = new System.Windows.Forms.Button();
+            this.btnreporte = new System.Windows.Forms.Button();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.btnvehiculos = new System.Windows.Forms.Button();
             this.btninspeccion = new System.Windows.Forms.Button();
             this.btnmantenimientos = new System.Windows.Forms.Button();
@@ -69,9 +79,15 @@
             // 
             this.Menuvertical.AutoScroll = true;
             this.Menuvertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+<<<<<<< HEAD
             this.Menuvertical.Controls.Add(this.report);
             this.Menuvertical.Controls.Add(this.pictureBox1);
             this.Menuvertical.Controls.Add(this.PanelSubmenumedio);
+=======
+            this.Menuvertical.Controls.Add(this.pictureBox1);
+            this.Menuvertical.Controls.Add(this.PanelSubmenumedio);
+            this.Menuvertical.Controls.Add(this.btnreporte);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.Menuvertical.Controls.Add(this.btnvehiculos);
             this.Menuvertical.Controls.Add(this.btninspeccion);
             this.Menuvertical.Controls.Add(this.btnmantenimientos);
@@ -86,6 +102,7 @@
             this.Menuvertical.TabIndex = 0;
             this.Menuvertical.Paint += new System.Windows.Forms.PaintEventHandler(this.Menuvertical_Paint);
             // 
+<<<<<<< HEAD
             // report
             // 
             this.report.FlatAppearance.BorderSize = 0;
@@ -104,6 +121,8 @@
             this.report.UseVisualStyleBackColor = true;
             this.report.Click += new System.EventHandler(this.report_Click);
             // 
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -117,6 +136,7 @@
             // 
             // PanelSubmenumedio
             // 
+<<<<<<< HEAD
             this.PanelSubmenumedio.Controls.Add(this.btncombustibles);
             this.PanelSubmenumedio.Controls.Add(this.btnmodelo);
             this.PanelSubmenumedio.Controls.Add(this.btnmarcas);
@@ -124,10 +144,20 @@
             this.PanelSubmenumedio.Location = new System.Drawing.Point(-3, 414);
             this.PanelSubmenumedio.Name = "PanelSubmenumedio";
             this.PanelSubmenumedio.Size = new System.Drawing.Size(172, 116);
+=======
+            this.PanelSubmenumedio.Controls.Add(this.btnmodelo);
+            this.PanelSubmenumedio.Controls.Add(this.btntiposveh);
+            this.PanelSubmenumedio.Controls.Add(this.btnmarcas);
+            this.PanelSubmenumedio.Controls.Add(this.btncombustibles);
+            this.PanelSubmenumedio.Location = new System.Drawing.Point(0, 448);
+            this.PanelSubmenumedio.Name = "PanelSubmenumedio";
+            this.PanelSubmenumedio.Size = new System.Drawing.Size(172, 122);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.PanelSubmenumedio.TabIndex = 7;
             this.PanelSubmenumedio.Visible = false;
             this.PanelSubmenumedio.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelSubmenumedio_Paint);
             // 
+<<<<<<< HEAD
             // btncombustibles
             // 
             this.btncombustibles.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -147,6 +177,8 @@
             this.btncombustibles.UseVisualStyleBackColor = true;
             this.btncombustibles.Click += new System.EventHandler(this.button4_Click);
             // 
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // btnmodelo
             // 
             this.btnmodelo.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -156,7 +188,11 @@
             this.btnmodelo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmodelo.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmodelo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+<<<<<<< HEAD
             this.btnmodelo.Location = new System.Drawing.Point(6, 21);
+=======
+            this.btnmodelo.Location = new System.Drawing.Point(-3, 34);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.btnmodelo.Name = "btnmodelo";
             this.btnmodelo.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.btnmodelo.Size = new System.Drawing.Size(169, 23);
@@ -166,6 +202,28 @@
             this.btnmodelo.UseVisualStyleBackColor = true;
             this.btnmodelo.Click += new System.EventHandler(this.button2_Click);
             // 
+<<<<<<< HEAD
+=======
+            // btntiposveh
+            // 
+            this.btntiposveh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btntiposveh.FlatAppearance.BorderSize = 0;
+            this.btntiposveh.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
+            this.btntiposveh.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray;
+            this.btntiposveh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btntiposveh.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btntiposveh.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btntiposveh.Location = new System.Drawing.Point(0, 1);
+            this.btntiposveh.Name = "btntiposveh";
+            this.btntiposveh.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btntiposveh.Size = new System.Drawing.Size(169, 27);
+            this.btntiposveh.TabIndex = 0;
+            this.btntiposveh.Text = "Tipos de Vehiculos";
+            this.btntiposveh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btntiposveh.UseVisualStyleBackColor = true;
+            this.btntiposveh.Click += new System.EventHandler(this.btntiposveh_Click);
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // btnmarcas
             // 
             this.btnmarcas.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -175,7 +233,11 @@
             this.btnmarcas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmarcas.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmarcas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+<<<<<<< HEAD
             this.btnmarcas.Location = new System.Drawing.Point(6, 50);
+=======
+            this.btnmarcas.Location = new System.Drawing.Point(0, 63);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.btnmarcas.Name = "btnmarcas";
             this.btnmarcas.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.btnmarcas.Size = new System.Drawing.Size(169, 23);
@@ -185,6 +247,7 @@
             this.btnmarcas.UseVisualStyleBackColor = true;
             this.btnmarcas.Click += new System.EventHandler(this.button3_Click);
             // 
+<<<<<<< HEAD
             // btntiposveh
             // 
             this.btntiposveh.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -203,6 +266,44 @@
             this.btntiposveh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btntiposveh.UseVisualStyleBackColor = true;
             this.btntiposveh.Click += new System.EventHandler(this.btntiposveh_Click);
+=======
+            // btncombustibles
+            // 
+            this.btncombustibles.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncombustibles.FlatAppearance.BorderSize = 0;
+            this.btncombustibles.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
+            this.btncombustibles.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray;
+            this.btncombustibles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncombustibles.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncombustibles.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncombustibles.Location = new System.Drawing.Point(-6, 92);
+            this.btncombustibles.Name = "btncombustibles";
+            this.btncombustibles.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btncombustibles.Size = new System.Drawing.Size(169, 27);
+            this.btncombustibles.TabIndex = 7;
+            this.btncombustibles.Text = "Combustibles";
+            this.btncombustibles.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncombustibles.UseVisualStyleBackColor = true;
+            this.btncombustibles.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // btnreporte
+            // 
+            this.btnreporte.FlatAppearance.BorderSize = 0;
+            this.btnreporte.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnreporte.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnreporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnreporte.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnreporte.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnreporte.Image = ((System.Drawing.Image)(resources.GetObject("btnreporte.Image")));
+            this.btnreporte.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnreporte.Location = new System.Drawing.Point(0, 310);
+            this.btnreporte.Name = "btnreporte";
+            this.btnreporte.Size = new System.Drawing.Size(172, 40);
+            this.btnreporte.TabIndex = 5;
+            this.btnreporte.Text = "Reportes";
+            this.btnreporte.UseVisualStyleBackColor = true;
+            this.btnreporte.Click += new System.EventHandler(this.btnusuarios_Click);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // 
             // btnvehiculos
             // 
@@ -215,9 +316,15 @@
             this.btnvehiculos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnvehiculos.Image = ((System.Drawing.Image)(resources.GetObject("btnvehiculos.Image")));
             this.btnvehiculos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+<<<<<<< HEAD
             this.btnvehiculos.Location = new System.Drawing.Point(0, 143);
             this.btnvehiculos.Name = "btnvehiculos";
             this.btnvehiculos.Size = new System.Drawing.Size(203, 32);
+=======
+            this.btnvehiculos.Location = new System.Drawing.Point(0, 167);
+            this.btnvehiculos.Name = "btnvehiculos";
+            this.btnvehiculos.Size = new System.Drawing.Size(200, 40);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.btnvehiculos.TabIndex = 2;
             this.btnvehiculos.Text = "Vehiculos";
             this.btnvehiculos.UseVisualStyleBackColor = true;
@@ -233,9 +340,15 @@
             this.btninspeccion.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btninspeccion.Image = ((System.Drawing.Image)(resources.GetObject("btninspeccion.Image")));
             this.btninspeccion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+<<<<<<< HEAD
             this.btninspeccion.Location = new System.Drawing.Point(-3, 273);
             this.btninspeccion.Name = "btninspeccion";
             this.btninspeccion.Size = new System.Drawing.Size(197, 37);
+=======
+            this.btninspeccion.Location = new System.Drawing.Point(3, 356);
+            this.btninspeccion.Name = "btninspeccion";
+            this.btninspeccion.Size = new System.Drawing.Size(197, 40);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.btninspeccion.TabIndex = 9;
             this.btninspeccion.Text = "Inspección";
             this.btninspeccion.UseVisualStyleBackColor = true;
@@ -251,9 +364,15 @@
             this.btnmantenimientos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnmantenimientos.Image = ((System.Drawing.Image)(resources.GetObject("btnmantenimientos.Image")));
             this.btnmantenimientos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+<<<<<<< HEAD
             this.btnmantenimientos.Location = new System.Drawing.Point(-3, 364);
             this.btnmantenimientos.Name = "btnmantenimientos";
             this.btnmantenimientos.Size = new System.Drawing.Size(197, 42);
+=======
+            this.btnmantenimientos.Location = new System.Drawing.Point(-6, 402);
+            this.btnmantenimientos.Name = "btnmantenimientos";
+            this.btnmantenimientos.Size = new System.Drawing.Size(197, 40);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.btnmantenimientos.TabIndex = 6;
             this.btnmantenimientos.Text = "Mantenimientos";
             this.btnmantenimientos.UseVisualStyleBackColor = true;
@@ -269,9 +388,15 @@
             this.btnempleados.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnempleados.Image = ((System.Drawing.Image)(resources.GetObject("btnempleados.Image")));
             this.btnempleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+<<<<<<< HEAD
             this.btnempleados.Location = new System.Drawing.Point(-6, 227);
             this.btnempleados.Name = "btnempleados";
             this.btnempleados.Size = new System.Drawing.Size(178, 40);
+=======
+            this.btnempleados.Location = new System.Drawing.Point(0, 264);
+            this.btnempleados.Name = "btnempleados";
+            this.btnempleados.Size = new System.Drawing.Size(172, 40);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.btnempleados.TabIndex = 4;
             this.btnempleados.Text = "Empleados";
             this.btnempleados.UseVisualStyleBackColor = true;
@@ -287,7 +412,11 @@
             this.btnrentar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnrentar.Image = ((System.Drawing.Image)(resources.GetObject("btnrentar.Image")));
             this.btnrentar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+<<<<<<< HEAD
             this.btnrentar.Location = new System.Drawing.Point(-3, 181);
+=======
+            this.btnrentar.Location = new System.Drawing.Point(-6, 213);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.btnrentar.Name = "btnrentar";
             this.btnrentar.Size = new System.Drawing.Size(206, 40);
             this.btnrentar.TabIndex = 3;
@@ -306,9 +435,15 @@
             this.btnclientes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnclientes.Image = ((System.Drawing.Image)(resources.GetObject("btnclientes.Image")));
             this.btnclientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+<<<<<<< HEAD
             this.btnclientes.Location = new System.Drawing.Point(0, 109);
             this.btnclientes.Name = "btnclientes";
             this.btnclientes.Size = new System.Drawing.Size(203, 34);
+=======
+            this.btnclientes.Location = new System.Drawing.Point(0, 127);
+            this.btnclientes.Name = "btnclientes";
+            this.btnclientes.Size = new System.Drawing.Size(200, 40);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.btnclientes.TabIndex = 1;
             this.btnclientes.Text = "Clientes";
             this.btnclientes.UseVisualStyleBackColor = true;
@@ -320,7 +455,11 @@
             this.btninicio.Image = ((System.Drawing.Image)(resources.GetObject("btninicio.Image")));
             this.btninicio.Location = new System.Drawing.Point(0, 0);
             this.btninicio.Name = "btninicio";
+<<<<<<< HEAD
             this.btninicio.Size = new System.Drawing.Size(203, 109);
+=======
+            this.btninicio.Size = new System.Drawing.Size(200, 127);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.btninicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btninicio.TabIndex = 0;
             this.btninicio.TabStop = false;
@@ -455,6 +594,10 @@
         private System.Windows.Forms.PictureBox Iconmaximizar;
         private System.Windows.Forms.PictureBox Iconrestraurar;
         private System.Windows.Forms.Button btnclientes;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Button btnreporte;
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         private System.Windows.Forms.Button btnempleados;
         private System.Windows.Forms.Button btnrentar;
         private System.Windows.Forms.Button btnvehiculos;
@@ -467,7 +610,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btninspeccion;
         private RentcarDataSet rentcarDataSet1;
+<<<<<<< HEAD
         private System.Windows.Forms.Button report;
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
     }
 }
 

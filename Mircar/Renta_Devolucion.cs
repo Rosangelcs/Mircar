@@ -15,7 +15,11 @@ namespace Mircar
     public partial class Renta_Devolucion
     {
         public int id { get; set; }
+<<<<<<< HEAD
         public int id_empleado { get; set; }
+=======
+        public Nullable<int> id_empleado { get; set; }
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         public string Vehiculo { get; set; }
         public string cliente { get; set; }
         public System.DateTime Fecha_renta { get; set; }

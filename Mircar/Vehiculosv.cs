@@ -44,7 +44,12 @@ namespace Mircar
             grid2.DataSource = contexto.Vehiculos.ToList();
         }
         private void llenar()
+<<<<<<< HEAD
         {;
+=======
+        {
+            this.textid.Text = grid2.SelectedRows[0].Cells[0].Value.ToString();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.textdescripcion.Text = grid2.SelectedRows[0].Cells[1].Value.ToString();
             this.textchasi.Text = grid2.SelectedRows[0].Cells[2].Value.ToString();
             this.textmotor.Text = grid2.SelectedRows[0].Cells[3].Value.ToString();
@@ -61,7 +66,11 @@ namespace Mircar
 
         private void btnnuevo_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+            textid.Clear();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             textdescripcion.Clear();
             textchasi.Clear();
             textmotor.Clear();
@@ -75,7 +84,11 @@ namespace Mircar
 
         private void btnguardar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
           
+=======
+            int id = Convert.ToInt32(this.textid.Text);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             string Descripcion = textdescripcion.Text;
             int Nochasi = Convert.ToInt32(this.textchasi.Text);
             int Nomotor = Convert.ToInt32(this.textmotor.Text);
@@ -92,7 +105,11 @@ namespace Mircar
 
                     Vehiculos c = new Vehiculos
                     {
+<<<<<<< HEAD
                         
+=======
+                        id = id,
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
                         Descripcion = Descripcion,
                         No_chasis = Nochasi,
                         No_motor = Nomotor,
@@ -132,7 +149,11 @@ namespace Mircar
 
         private void btneditar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+            int id = Convert.ToInt16(this.textid.Text);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             string Descripcion = textdescripcion.Text;
             int Nochasi = Convert.ToInt32(this.textchasi.Text);
             int Nomotor = Convert.ToInt32(this.textmotor.Text);
@@ -147,7 +168,11 @@ namespace Mircar
             using (RentcarEntities contexto = new RentcarEntities())
             {
 
+<<<<<<< HEAD
                 Vehiculos c = contexto.Vehiculos.FirstOrDefault();
+=======
+                Vehiculos c = contexto.Vehiculos.FirstOrDefault(x => x.id == id);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
                 c.Descripcion = Descripcion;
                 c.No_chasis = Nochasi;
                 c.No_motor = Nomotor;
@@ -166,11 +191,19 @@ namespace Mircar
 
         private void btneliminar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
           
             using (RentcarEntities contexto = new RentcarEntities())
             {
 
                 Vehiculos c = contexto.Vehiculos.FirstOrDefault();
+=======
+            int id = Convert.ToInt32(this.textid.Text);
+            using (RentcarEntities contexto = new RentcarEntities())
+            {
+
+                Vehiculos c = contexto.Vehiculos.FirstOrDefault(x => x.id == id);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
                 contexto.Vehiculos.Remove(c);
                 contexto.SaveChanges();
                 cargar();

@@ -30,6 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vehiculosv));
+<<<<<<< HEAD
+=======
+            this.label1 = new System.Windows.Forms.Label();
+            this.textid = new System.Windows.Forms.TextBox();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -44,9 +49,12 @@
             this.textmotor = new System.Windows.Forms.TextBox();
             this.textplaca = new System.Windows.Forms.TextBox();
             this.combocombustible = new System.Windows.Forms.ComboBox();
+<<<<<<< HEAD
             this.tiposCombustiblesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.rentcarDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.rentcarDataSet = new Mircar.RentcarDataSet();
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.comboestado = new System.Windows.Forms.ComboBox();
             this.grid2 = new System.Windows.Forms.DataGridView();
             this.btneliminar = new System.Windows.Forms.Button();
@@ -56,6 +64,11 @@
             this.label11 = new System.Windows.Forms.Label();
             this.combomarca = new System.Windows.Forms.ComboBox();
             this.marcasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+<<<<<<< HEAD
+=======
+            this.rentcarDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.rentcarDataSet = new Mircar.RentcarDataSet();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.marcasTableAdapter = new Mircar.RentcarDataSetTableAdapters.MarcasTableAdapter();
             this.combomodelo = new System.Windows.Forms.ComboBox();
             this.modelosBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -64,6 +77,7 @@
             this.tiposVehiculosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.modelosTableAdapter = new Mircar.RentcarDataSetTableAdapters.ModelosTableAdapter();
             this.tipos_VehiculosTableAdapter = new Mircar.RentcarDataSetTableAdapters.Tipos_VehiculosTableAdapter();
+<<<<<<< HEAD
             this.tipos_CombustiblesTableAdapter = new Mircar.RentcarDataSetTableAdapters.Tipos_CombustiblesTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.tiposCombustiblesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSetBindingSource)).BeginInit();
@@ -75,12 +89,50 @@
             ((System.ComponentModel.ISupportInitialize)(this.tiposVehiculosBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
+=======
+            this.tiposCombustiblesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tipos_CombustiblesTableAdapter = new Mircar.RentcarDataSetTableAdapters.Tipos_CombustiblesTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.grid2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marcasBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modelosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiposVehiculosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiposCombustiblesBindingSource)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(146, 64);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(27, 18);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Id:";
+            // 
+            // textid
+            // 
+            this.textid.BackColor = System.Drawing.Color.DarkGray;
+            this.textid.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textid.Location = new System.Drawing.Point(245, 61);
+            this.textid.Name = "textid";
+            this.textid.Size = new System.Drawing.Size(47, 26);
+            this.textid.TabIndex = 1;
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(143, 69);
+=======
+            this.label2.Location = new System.Drawing.Point(143, 103);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 18);
             this.label2.TabIndex = 2;
@@ -91,7 +143,11 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(146, 118);
+=======
+            this.label3.Location = new System.Drawing.Point(146, 152);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 18);
             this.label3.TabIndex = 3;
@@ -102,7 +158,11 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(147, 165);
+=======
+            this.label4.Location = new System.Drawing.Point(147, 199);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 18);
             this.label4.TabIndex = 4;
@@ -113,7 +173,11 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
             this.label5.Location = new System.Drawing.Point(146, 219);
+=======
+            this.label5.Location = new System.Drawing.Point(146, 253);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(74, 18);
             this.label5.TabIndex = 5;
@@ -179,7 +243,11 @@
             // 
             this.textdescripcion.BackColor = System.Drawing.Color.DarkGray;
             this.textdescripcion.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.textdescripcion.Location = new System.Drawing.Point(245, 66);
+=======
+            this.textdescripcion.Location = new System.Drawing.Point(245, 100);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.textdescripcion.Multiline = true;
             this.textdescripcion.Name = "textdescripcion";
             this.textdescripcion.Size = new System.Drawing.Size(220, 30);
@@ -189,7 +257,11 @@
             // 
             this.textchasi.BackColor = System.Drawing.Color.DarkGray;
             this.textchasi.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.textchasi.Location = new System.Drawing.Point(245, 110);
+=======
+            this.textchasi.Location = new System.Drawing.Point(245, 144);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.textchasi.Name = "textchasi";
             this.textchasi.Size = new System.Drawing.Size(220, 26);
             this.textchasi.TabIndex = 12;
@@ -198,7 +270,11 @@
             // 
             this.textmotor.BackColor = System.Drawing.Color.DarkGray;
             this.textmotor.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.textmotor.Location = new System.Drawing.Point(245, 162);
+=======
+            this.textmotor.Location = new System.Drawing.Point(245, 196);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.textmotor.Name = "textmotor";
             this.textmotor.Size = new System.Drawing.Size(220, 26);
             this.textmotor.TabIndex = 13;
@@ -207,7 +283,11 @@
             // 
             this.textplaca.BackColor = System.Drawing.Color.DarkGray;
             this.textplaca.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.textplaca.Location = new System.Drawing.Point(245, 216);
+=======
+            this.textplaca.Location = new System.Drawing.Point(245, 250);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.textplaca.Name = "textplaca";
             this.textplaca.Size = new System.Drawing.Size(220, 26);
             this.textplaca.TabIndex = 14;
@@ -224,6 +304,7 @@
             this.combocombustible.TabIndex = 18;
             this.combocombustible.ValueMember = "Descripcion";
             // 
+<<<<<<< HEAD
             // tiposCombustiblesBindingSource
             // 
             this.tiposCombustiblesBindingSource.DataMember = "Tipos_Combustibles";
@@ -239,6 +320,8 @@
             this.rentcarDataSet.DataSetName = "RentcarDataSet";
             this.rentcarDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // comboestado
             // 
             this.comboestado.BackColor = System.Drawing.Color.DarkGray;
@@ -366,6 +449,19 @@
             this.marcasBindingSource.DataMember = "Marcas";
             this.marcasBindingSource.DataSource = this.rentcarDataSetBindingSource;
             // 
+<<<<<<< HEAD
+=======
+            // rentcarDataSetBindingSource
+            // 
+            this.rentcarDataSetBindingSource.DataSource = this.rentcarDataSet;
+            this.rentcarDataSetBindingSource.Position = 0;
+            // 
+            // rentcarDataSet
+            // 
+            this.rentcarDataSet.DataSetName = "RentcarDataSet";
+            this.rentcarDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // marcasTableAdapter
             // 
             this.marcasTableAdapter.ClearBeforeFill = true;
@@ -420,6 +516,14 @@
             // 
             this.tipos_VehiculosTableAdapter.ClearBeforeFill = true;
             // 
+<<<<<<< HEAD
+=======
+            // tiposCombustiblesBindingSource
+            // 
+            this.tiposCombustiblesBindingSource.DataMember = "Tipos_Combustibles";
+            this.tiposCombustiblesBindingSource.DataSource = this.rentcarDataSetBindingSource;
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // tipos_CombustiblesTableAdapter
             // 
             this.tipos_CombustiblesTableAdapter.ClearBeforeFill = true;
@@ -454,11 +558,17 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.textid);
+            this.Controls.Add(this.label1);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Vehiculosv";
             this.Text = "Vehiculosv";
             this.Load += new System.EventHandler(this.Vehiculosv_Load);
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.tiposCombustiblesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSet)).EndInit();
@@ -467,12 +577,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.modelosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiposVehiculosBindingSource)).EndInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.grid2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marcasBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modelosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rentcarDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiposVehiculosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tiposCombustiblesBindingSource)).EndInit();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+<<<<<<< HEAD
+=======
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textid;
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

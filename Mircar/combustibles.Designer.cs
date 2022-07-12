@@ -37,8 +37,15 @@
             this.btnnuevo = new System.Windows.Forms.Button();
             this.dat1 = new System.Windows.Forms.DataGridView();
             this.textdescripcion = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+=======
+            this.texid = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             ((System.ComponentModel.ISupportInitialize)(this.dat1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,7 +66,11 @@
             this.comboestado.Items.AddRange(new object[] {
             "Activo",
             "Inactivo"});
+<<<<<<< HEAD
             this.comboestado.Location = new System.Drawing.Point(100, 178);
+=======
+            this.comboestado.Location = new System.Drawing.Point(100, 221);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.comboestado.Name = "comboestado";
             this.comboestado.Size = new System.Drawing.Size(102, 21);
             this.comboestado.TabIndex = 59;
@@ -146,23 +157,45 @@
             this.dat1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dat1.Size = new System.Drawing.Size(367, 172);
             this.dat1.TabIndex = 54;
+<<<<<<< HEAD
             this.dat1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dat1_CellContentClick);
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.dat1.Click += new System.EventHandler(this.dat1_Click);
             // 
             // textdescripcion
             // 
             this.textdescripcion.BackColor = System.Drawing.Color.DarkGray;
+<<<<<<< HEAD
             this.textdescripcion.Location = new System.Drawing.Point(99, 121);
+=======
+            this.textdescripcion.Location = new System.Drawing.Point(99, 164);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.textdescripcion.Multiline = true;
             this.textdescripcion.Name = "textdescripcion";
             this.textdescripcion.Size = new System.Drawing.Size(165, 30);
             this.textdescripcion.TabIndex = 53;
             // 
+<<<<<<< HEAD
+=======
+            // texid
+            // 
+            this.texid.BackColor = System.Drawing.Color.DarkGray;
+            this.texid.Location = new System.Drawing.Point(100, 120);
+            this.texid.Name = "texid";
+            this.texid.Size = new System.Drawing.Size(45, 20);
+            this.texid.TabIndex = 52;
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(96, 157);
+=======
+            this.label4.Location = new System.Drawing.Point(96, 200);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 18);
             this.label4.TabIndex = 51;
@@ -172,12 +205,29 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(96, 100);
+=======
+            this.label3.Location = new System.Drawing.Point(96, 143);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 18);
             this.label3.TabIndex = 50;
             this.label3.Text = "Descripción:";
             // 
+<<<<<<< HEAD
+=======
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(96, 102);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(27, 18);
+            this.label2.TabIndex = 49;
+            this.label2.Text = "Id:";
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // combustibles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -191,8 +241,15 @@
             this.Controls.Add(this.btnnuevo);
             this.Controls.Add(this.dat1);
             this.Controls.Add(this.textdescripcion);
+<<<<<<< HEAD
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+=======
+            this.Controls.Add(this.texid);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "combustibles";
@@ -214,7 +271,14 @@
         private System.Windows.Forms.Button btnnuevo;
         private System.Windows.Forms.DataGridView dat1;
         private System.Windows.Forms.TextBox textdescripcion;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+=======
+        private System.Windows.Forms.TextBox texid;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
     }
 }

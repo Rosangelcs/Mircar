@@ -33,10 +33,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+=======
+            this.label6 = new System.Windows.Forms.Label();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label7 = new System.Windows.Forms.Label();
             this.textnombre = new System.Windows.Forms.TextBox();
             this.textcedula = new System.Windows.Forms.TextBox();
             this.texttarjeta = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
+=======
+            this.textid = new System.Windows.Forms.TextBox();
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.combotipo = new System.Windows.Forms.ComboBox();
             this.btnnuevo = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
@@ -44,7 +52,10 @@
             this.btneliminar = new System.Windows.Forms.Button();
             this.grid = new System.Windows.Forms.DataGridView();
             this.comboestado = new System.Windows.Forms.ComboBox();
+<<<<<<< HEAD
             this.label4 = new System.Windows.Forms.Label();
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             ((System.ComponentModel.ISupportInitialize)(this.grid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -95,12 +106,30 @@
             this.label5.Text = "Tipo de Persona:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+<<<<<<< HEAD
+=======
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(347, 55);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(27, 18);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Id:";
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
             this.label7.Location = new System.Drawing.Point(313, 65);
+=======
+            this.label7.Location = new System.Drawing.Point(478, 56);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 18);
             this.label7.TabIndex = 6;
@@ -146,6 +175,21 @@
             this.texttarjeta.Size = new System.Drawing.Size(113, 28);
             this.texttarjeta.TabIndex = 9;
             // 
+<<<<<<< HEAD
+=======
+            // textid
+            // 
+            this.textid.BackColor = System.Drawing.Color.DarkGray;
+            this.textid.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textid.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.textid.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textid.Location = new System.Drawing.Point(344, 76);
+            this.textid.Multiline = true;
+            this.textid.Name = "textid";
+            this.textid.Size = new System.Drawing.Size(55, 28);
+            this.textid.TabIndex = 12;
+            // 
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // combotipo
             // 
             this.combotipo.BackColor = System.Drawing.Color.DarkGray;
@@ -253,11 +297,16 @@
             this.comboestado.Items.AddRange(new object[] {
             "Activo",
             "Inactivo"});
+<<<<<<< HEAD
             this.comboestado.Location = new System.Drawing.Point(308, 86);
+=======
+            this.comboestado.Location = new System.Drawing.Point(473, 77);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.comboestado.Name = "comboestado";
             this.comboestado.Size = new System.Drawing.Size(120, 21);
             this.comboestado.TabIndex = 23;
             // 
+<<<<<<< HEAD
             // label4
             // 
             this.label4.AutoSize = true;
@@ -268,13 +317,18 @@
             this.label4.TabIndex = 24;
             this.label4.Text = "Clientes";
             // 
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             // client
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(924, 463);
+<<<<<<< HEAD
             this.Controls.Add(this.label4);
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.Controls.Add(this.comboestado);
             this.Controls.Add(this.grid);
             this.Controls.Add(this.btneliminar);
@@ -282,10 +336,18 @@
             this.Controls.Add(this.btnguardar);
             this.Controls.Add(this.btnnuevo);
             this.Controls.Add(this.combotipo);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.textid);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.Controls.Add(this.texttarjeta);
             this.Controls.Add(this.textcedula);
             this.Controls.Add(this.textnombre);
             this.Controls.Add(this.label7);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.label6);
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -306,10 +368,18 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Label label6;
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textnombre;
         private System.Windows.Forms.TextBox textcedula;
         private System.Windows.Forms.TextBox texttarjeta;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.TextBox textid;
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         private System.Windows.Forms.ComboBox combotipo;
         private System.Windows.Forms.Button btnnuevo;
         private System.Windows.Forms.Button btnguardar;
@@ -317,6 +387,9 @@
         private System.Windows.Forms.Button btneliminar;
         private System.Windows.Forms.DataGridView grid;
         private System.Windows.Forms.ComboBox comboestado;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label4;
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
     }
 }

@@ -9,9 +9,15 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nombre" Type="nchar" MaxLength="100" Nullable="false" />
           <Property Name="Cedula" Type="varchar" MaxLength="15" Nullable="false" />
+=======
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="nchar" MaxLength="100" Nullable="false" />
+          <Property Name="Cedula" Type="float" Nullable="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
           <Property Name="No.tarjeta" Type="float" Nullable="false" />
           <Property Name="Tipo_Persona" Type="nchar" MaxLength="50" Nullable="false" />
           <Property Name="Estado" Type="nchar" MaxLength="50" Nullable="false" />
@@ -20,8 +26,14 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nombre" Type="nchar" MaxLength="100" Nullable="false" />
+=======
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="nchar" MaxLength="100" Nullable="false" />
+          <Property Name="Cedula" Type="float" Nullable="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
           <Property Name="Tanda_labor" Type="nchar" MaxLength="100" Nullable="false" />
           <Property Name="Fecha_ingreso" Type="date" Nullable="false" />
           <Property Name="Estado" Type="nchar" MaxLength="100" Nullable="false" />
@@ -30,7 +42,11 @@
           <Key>
             <PropertyRef Name="id_Transacción" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id_Transacción" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+=======
+          <Property Name="id_Transacción" Type="int" Nullable="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
           <Property Name="Vehiculo" Type="nchar" MaxLength="300" Nullable="false" />
           <Property Name="id_cliente" Type="int" Nullable="false" />
           <Property Name="Ralladura" Type="nchar" MaxLength="300" Nullable="false" />
@@ -47,7 +63,11 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+=======
+          <Property Name="id" Type="int" Nullable="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
           <Property Name="Descripcion" Type="nchar" MaxLength="450" Nullable="false" />
           <Property Name="Estado" Type="nchar" MaxLength="50" Nullable="false" />
         </EntityType>
@@ -55,7 +75,11 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+=======
+          <Property Name="id" Type="int" Nullable="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
           <Property Name="id_marca" Type="int" Nullable="false" />
           <Property Name="Descripcion" Type="nchar" MaxLength="450" Nullable="false" />
           <Property Name="Estado" Type="nchar" MaxLength="50" Nullable="false" />
@@ -64,8 +88,13 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="id_empleado" Type="int" Nullable="false" />
+=======
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="id_empleado" Type="int" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
           <Property Name="Vehiculo" Type="nchar" MaxLength="450" Nullable="false" />
           <Property Name="cliente" Type="nchar" MaxLength="450" Nullable="false" />
           <Property Name="Fecha_renta" Type="date" Nullable="false" />
@@ -89,7 +118,11 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+=======
+          <Property Name="id" Type="int" Nullable="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
           <Property Name="Descripcion" Type="nchar" MaxLength="450" Nullable="false" />
           <Property Name="Estado" Type="nchar" MaxLength="50" Nullable="false" />
         </EntityType>
@@ -97,7 +130,11 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+=======
+          <Property Name="id" Type="int" Nullable="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
           <Property Name="Descripcion" Type="nchar" MaxLength="450" Nullable="false" />
           <Property Name="Estado" Type="nchar" MaxLength="50" Nullable="false" />
         </EntityType>
@@ -105,7 +142,11 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+=======
+          <Property Name="id" Type="int" Nullable="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
           <Property Name="Nombre" Type="nchar" MaxLength="150" Nullable="false" />
           <Property Name="Apellidos" Type="nchar" MaxLength="200" Nullable="false" />
           <Property Name="Nombr_Usuario" Type="nchar" MaxLength="100" Nullable="false" />
@@ -117,7 +158,11 @@
           <Key>
             <PropertyRef Name="id" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+=======
+          <Property Name="id" Type="int" Nullable="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
           <Property Name="Descripcion" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="No.chasis" Type="int" Nullable="false" />
           <Property Name="No.motor" Type="int" Nullable="false" />
@@ -145,6 +190,7 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="RentcarModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+<<<<<<< HEAD
         <EntityType Name="sysdiagrams">
           <Key>
             <PropertyRef Name="diagram_id" />
@@ -156,10 +202,25 @@
           <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
         </EntityType>
         <EntityType Name="Usuarios">
+=======
+        <EntityType Name="Clientes">
           <Key>
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Cedula" Type="Double" Nullable="false" />
+          <Property Name="No_tarjeta" Type="Double" Nullable="false" />
+          <Property Name="Tipo_Persona" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Empleados">
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+<<<<<<< HEAD
           <Property Name="Nombre" Type="String" MaxLength="150" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="Apellidos" Type="String" MaxLength="200" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="Nombr_Usuario" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
@@ -180,10 +241,19 @@
           <EntitySet Name="Renta_Devolucion" EntityType="RentcarModel.Renta_Devolucion" />
           <EntitySet Name="Empleados" EntityType="RentcarModel.Empleados" />
         </EntityContainer>
+=======
+          <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Cedula" Type="Double" Nullable="false" />
+          <Property Name="Tanda_labor" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Fecha_ingreso" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Estado" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+        </EntityType>
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         <EntityType Name="Inspeccion">
           <Key>
             <PropertyRef Name="id_Transacción" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id_Transacción" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Vehiculo" Type="String" Nullable="false" MaxLength="300" FixedLength="true" Unicode="true" />
           <Property Name="id_cliente" Type="Int32" Nullable="false" />
@@ -204,19 +274,40 @@
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Descripcion" Type="String" Nullable="false" MaxLength="450" FixedLength="true" Unicode="true" />
           <Property Name="Estado" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+=======
+          <Property Name="id_Transacción" Type="Int32" Nullable="false" />
+          <Property Name="Vehiculo" Type="String" MaxLength="300" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="id_cliente" Type="Int32" Nullable="false" />
+          <Property Name="Ralladura" Type="String" MaxLength="300" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Cantidad_Combustible" Type="String" MaxLength="300" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Goma_repueta" Type="String" MaxLength="300" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Gato" Type="String" MaxLength="300" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Cristal" Type="String" MaxLength="300" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Estado_gomas" Type="String" MaxLength="300" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="id_empleado" Type="Int32" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         </EntityType>
         <EntityType Name="Marcas">
           <Key>
             <PropertyRef Name="id" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Descripcion" Type="String" Nullable="false" MaxLength="450" FixedLength="true" Unicode="true" />
           <Property Name="Estado" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+=======
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="450" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         </EntityType>
         <EntityType Name="Modelos">
           <Key>
             <PropertyRef Name="id" />
           </Key>
+<<<<<<< HEAD
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="id_marca" Type="Int32" Nullable="false" />
           <Property Name="Descripcion" Type="String" Nullable="false" MaxLength="450" FixedLength="true" Unicode="true" />
@@ -280,6 +371,93 @@
           <Property Name="Tanda_labor" Type="String" Nullable="false" MaxLength="100" FixedLength="true" Unicode="true" />
           <Property Name="Fecha_ingreso" Type="DateTime" Nullable="false" Precision="0" />
           <Property Name="Estado" Type="String" Nullable="false" MaxLength="100" FixedLength="true" Unicode="true" />
+=======
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="id_marca" Type="Int32" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="450" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Renta_Devolucion">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="id_empleado" Type="Int32" />
+          <Property Name="Vehiculo" Type="String" MaxLength="450" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="cliente" Type="String" MaxLength="450" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Fecha_renta" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Fecha_devolucion" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="monto" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="Cantidad_Dias" Type="Int32" Nullable="false" />
+          <Property Name="Comentario" Type="String" MaxLength="900" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tipos_Combustibles">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="450" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tipos_Vehiculos">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="450" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Usuarios">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="150" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Apellidos" Type="String" MaxLength="200" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Nombr_Usuario" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Contraseñas" Type="Binary" MaxLength="50" FixedLength="false" Nullable="false" />
+          <Property Name="cargo" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="RentcarEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+          <EntitySet Name="Empleados" EntityType="Self.Empleados" />
+          <EntitySet Name="Inspeccion" EntityType="Self.Inspeccion" />
+          <EntitySet Name="Marcas" EntityType="Self.Marcas" />
+          <EntitySet Name="Modelos" EntityType="Self.Modelos" />
+          <EntitySet Name="Renta_Devolucion" EntityType="Self.Renta_Devolucion" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="Tipos_Combustibles" EntityType="Self.Tipos_Combustibles" />
+          <EntitySet Name="Tipos_Vehiculos" EntityType="Self.Tipos_Vehiculos" />
+          <EntitySet Name="Usuarios" EntityType="Self.Usuarios" />
+          <EntitySet Name="Vehiculos" EntityType="RentcarModel.Vehiculos" />
+        </EntityContainer>
+        <EntityType Name="Vehiculos">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Descripcion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="No_chasis" Type="Int32" Nullable="false" />
+          <Property Name="No_motor" Type="Int32" Nullable="false" />
+          <Property Name="No_placa" Type="Int32" Nullable="false" />
+          <Property Name="Tipo_Vehiculo" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="Marca" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="Modelo" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="Tipo_Combustible" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="Estado" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -287,6 +465,7 @@
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="RentcarModelStoreContainer" CdmEntityContainer="RentcarEntities">
+<<<<<<< HEAD
           <EntitySetMapping Name="sysdiagrams">
             <EntityTypeMapping TypeName="RentcarModel.sysdiagrams">
               <MappingFragment StoreEntitySet="sysdiagrams">
@@ -307,6 +486,28 @@
                 <ScalarProperty Name="Nombr_Usuario" ColumnName="Nombr_Usuario" />
                 <ScalarProperty Name="Contraseñas" ColumnName="Contraseñas" />
                 <ScalarProperty Name="cargo" ColumnName="cargo" />
+=======
+          <EntitySetMapping Name="Clientes">
+            <EntityTypeMapping TypeName="RentcarModel.Clientes">
+              <MappingFragment StoreEntitySet="Clientes">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+                <ScalarProperty Name="No_tarjeta" ColumnName="No.tarjeta" />
+                <ScalarProperty Name="Tipo_Persona" ColumnName="Tipo_Persona" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Empleados">
+            <EntityTypeMapping TypeName="RentcarModel.Empleados">
+              <MappingFragment StoreEntitySet="Empleados">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+                <ScalarProperty Name="Tanda_labor" ColumnName="Tanda_labor" />
+                <ScalarProperty Name="Fecha_ingreso" ColumnName="Fecha_ingreso" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
                 <ScalarProperty Name="Estado" ColumnName="Estado" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -314,6 +515,7 @@
           <EntitySetMapping Name="Inspeccion">
             <EntityTypeMapping TypeName="RentcarModel.Inspeccion">
               <MappingFragment StoreEntitySet="Inspeccion">
+<<<<<<< HEAD
                 <ScalarProperty Name="Estado" ColumnName="Estado" />
                 <ScalarProperty Name="id_empleado" ColumnName="id_empleado" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -335,34 +537,116 @@
                 <ScalarProperty Name="Estado" ColumnName="Estado" />
                 <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
                 <ScalarProperty Name="id" ColumnName="id" />
+=======
+                <ScalarProperty Name="id_Transacción" ColumnName="id_Transacción" />
+                <ScalarProperty Name="Vehiculo" ColumnName="Vehiculo" />
+                <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+                <ScalarProperty Name="Ralladura" ColumnName="Ralladura" />
+                <ScalarProperty Name="Cantidad_Combustible" ColumnName="Cantidad_Combustible" />
+                <ScalarProperty Name="Goma_repueta" ColumnName="Goma_repueta" />
+                <ScalarProperty Name="Gato" ColumnName="Gato" />
+                <ScalarProperty Name="Cristal" ColumnName="Cristal" />
+                <ScalarProperty Name="Estado_gomas" ColumnName="Estado_gomas" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="id_empleado" ColumnName="id_empleado" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Marcas">
             <EntityTypeMapping TypeName="RentcarModel.Marcas">
               <MappingFragment StoreEntitySet="Marcas">
+<<<<<<< HEAD
                 <ScalarProperty Name="Estado" ColumnName="Estado" />
                 <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
                 <ScalarProperty Name="id" ColumnName="id" />
+=======
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Modelos">
             <EntityTypeMapping TypeName="RentcarModel.Modelos">
               <MappingFragment StoreEntitySet="Modelos">
+<<<<<<< HEAD
                 <ScalarProperty Name="Estado" ColumnName="Estado" />
                 <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
                 <ScalarProperty Name="id_marca" ColumnName="id_marca" />
                 <ScalarProperty Name="id" ColumnName="id" />
+=======
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_marca" ColumnName="id_marca" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Renta_Devolucion">
+            <EntityTypeMapping TypeName="RentcarModel.Renta_Devolucion">
+              <MappingFragment StoreEntitySet="Renta_Devolucion">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_empleado" ColumnName="id_empleado" />
+                <ScalarProperty Name="Vehiculo" ColumnName="Vehiculo" />
+                <ScalarProperty Name="cliente" ColumnName="cliente" />
+                <ScalarProperty Name="Fecha_renta" ColumnName="Fecha_renta" />
+                <ScalarProperty Name="Fecha_devolucion" ColumnName="Fecha_devolucion" />
+                <ScalarProperty Name="monto" ColumnName="monto" />
+                <ScalarProperty Name="Cantidad_Dias" ColumnName="Cantidad_Dias" />
+                <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="RentcarModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tipos_Combustibles">
+            <EntityTypeMapping TypeName="RentcarModel.Tipos_Combustibles">
+              <MappingFragment StoreEntitySet="Tipos_Combustibles">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Tipos_Vehiculos">
             <EntityTypeMapping TypeName="RentcarModel.Tipos_Vehiculos">
               <MappingFragment StoreEntitySet="Tipos_Vehiculos">
+<<<<<<< HEAD
                 <ScalarProperty Name="Estado" ColumnName="Estado" />
                 <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
                 <ScalarProperty Name="id" ColumnName="id" />
+=======
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Usuarios">
+            <EntityTypeMapping TypeName="RentcarModel.Usuarios">
+              <MappingFragment StoreEntitySet="Usuarios">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+                <ScalarProperty Name="Nombr_Usuario" ColumnName="Nombr_Usuario" />
+                <ScalarProperty Name="Contraseñas" ColumnName="Contraseñas" />
+                <ScalarProperty Name="cargo" ColumnName="cargo" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -382,6 +666,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+<<<<<<< HEAD
           <EntitySetMapping Name="Clientes">
             <EntityTypeMapping TypeName="RentcarModel.Clientes">
               <MappingFragment StoreEntitySet="Clientes">
@@ -421,6 +706,8 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+=======
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

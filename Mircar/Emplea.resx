@@ -161,7 +161,11 @@
   <data name="btnnuevo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+<<<<<<< HEAD
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAADsKAAA7CgEzSyaRAAACr0lE
+=======
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAADsMAAA7DAGzSGIKAAACr0lE
+>>>>>>> c981806e37287a70ea3cd98c36cffc654bec212c
         QVRYR8WXS48NQRTH2zMsbRis2I1HgvFckUgYVojEh7AiPoOE1Qzi8QnMwgzfAPHYk5jxmM0IG2w8gh2/
         X+u66Xvd7qnqvpd/8kvq1q3qU119zqlTWaSWwRY4D/fgFXyHXwW27fM/x4yCc1rLhxyAW/AWvsEcTMMk
         XCi4AjPwEhzjWOfsg8YL2QCX4RO8Bw2Ow1pYDr2ybx0cBcc65yNcghFI0h54BF/gKrj9SyFWjnXONfgK
